@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: center;
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #df6b1d;
+}
+.navbar h1 {
+  padding: 10px 20px;
+  margin: 10px;
+  
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.navbar h1 span {
+  color: brown;
+}
+.navbar .link ul {
+  display: flex;
+  list-style: none;
+  margin-top: 20px;
+}
+.navbar .link ul li {
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px transparent;
+  margin: 10px;
+  padding: 10px 20px;
+  gap: 20px;
+  font-weight: 500;
+  transition: 0.6s ease;
+  max-width: 114rem;
+}
+.navbar .link ul li:hover {
+  background-color: black;
+  color: white;
+}
+.navbar .link ul li.active {
+  background: pink;
+}
+
+.header {
+background-image: url("https://img.freepik.com/free-photo/happy-millennial-woman-showing-smartphone-screen-pointing-it_273443-4604.jpg?w=2000");
+ width: 100%;
+height: 100vh;
+background-repeat: no-repeat;
+}
+ .header-nd{
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center!important;
+  padding: 300px;
+  gap: 20px;
+}
+.header-nd h1{
+  color: white;
+  font-size: 2.5em;
+}
+.header-nd p{
+  color: white;
+  font-size: 1.5em;
+  margin-top: 8px;
+}
+.header-nd button{
+  background-color: #5dd2b4;
+  color: #fdfdfd;
+  margin-top: 27.5px;
+  padding: 8px;
+  border-radius: 8px ;
+  border: transparent;
+  
+}
+.mobil-liste .liste{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border:  1px solid transparent ;
+  margin: 20px;
+  gap: 20px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  border-radius: 10px;
+}
+.mobil-liste .liste img{
+  width: 150px;
+
+}
+ .mobil-liste .liste .promo-btn{
+  background-color: rgb(25, 197, 54);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px ;
+  border: transparent;
+}
+.handle-counter {
+  overflow:hidden;
+ }
+ .handle-counter .counter-minus{
+  width: 60px;
+  border-radius: 8px;
+  margin: 30px;
+  background-color: red;
+  border: transparent;
+ }
+ .handle-counter .counter-plus{
+  width: 60px;
+  border-radius: 8px;
+  margin: 30px;
+  background-color: red;
+  border: transparent;
+ }
+ .handle-counter input{
+  width: 25px;
+  padding: 6px;
+ }
+ .form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+ }
+ 
